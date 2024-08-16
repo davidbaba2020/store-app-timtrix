@@ -1,14 +1,3 @@
-#spring:
-#  datasource:
-#    url:
-#    username:
-#    password:
-#  jpa:
-#    show-sql: true
-#    hibernate:
-#      ddl-auto: update
-#      dialecct: org.hibernate.dialect.SQLServer2012Dialect
-
 spring:
   datasource:
     url: jdbc:sqlserver://davacom.database.windows.net:1433;database=store-app;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
